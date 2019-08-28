@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atarbashi", "Atarbashi\Atarbashi.csproj", "{E20C0F45-85B5-45AD-B2D7-4FD9FB130061}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructure", "DataStructure\DataStructure.csproj", "{01C187CE-905E-46EE-B5E9-B5F4DBF2935A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{666612CB-80A1-4312-B1FF-1E527FA2F091}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{0A10B64F-8562-4306-90BF-4A06163110A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{E20C0F45-85B5-45AD-B2D7-4FD9FB130061}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +17,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01C187CE-905E-46EE-B5E9-B5F4DBF2935A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C187CE-905E-46EE-B5E9-B5F4DBF2935A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C187CE-905E-46EE-B5E9-B5F4DBF2935A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C187CE-905E-46EE-B5E9-B5F4DBF2935A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{666612CB-80A1-4312-B1FF-1E527FA2F091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{666612CB-80A1-4312-B1FF-1E527FA2F091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{666612CB-80A1-4312-B1FF-1E527FA2F091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{666612CB-80A1-4312-B1FF-1E527FA2F091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A10B64F-8562-4306-90BF-4A06163110A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A10B64F-8562-4306-90BF-4A06163110A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A10B64F-8562-4306-90BF-4A06163110A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A10B64F-8562-4306-90BF-4A06163110A0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E20C0F45-85B5-45AD-B2D7-4FD9FB130061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E20C0F45-85B5-45AD-B2D7-4FD9FB130061}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E20C0F45-85B5-45AD-B2D7-4FD9FB130061}.Release|Any CPU.ActiveCfg = Release|Any CPU
