@@ -101,6 +101,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\Atarbashi\css\atarbashi.css" />
+    <Content Include="App_Themes\Atarbashi\css\font-Nazanin.css" />
     <Content Include="App_Themes\Atarbashi\css\main.css" />
     <Content Include="App_Themes\Atarbashi\css\style.css" />
     <Content Include="App_Themes\Atarbashi\images\blog\add.jpg" />
@@ -670,6 +672,9 @@
     <Content Include="App_Themes\Atarbashi\vendors\themify-icons\fonts\themify.ttf" />
     <Content Include="App_Themes\Atarbashi\vendors\themify-icons\fonts\themify.woff" />
     <Content Include="App_Themes\Atarbashi\vendors\themify-icons\Themify IconFonts 5-23-2014.json" />
+    <Content Include="App_Themes\Atarbashi\fonts\BNazanin.eot" />
+    <Content Include="App_Themes\Atarbashi\fonts\BNazanin.ttf" />
+    <Content Include="App_Themes\Atarbashi\fonts\BNazanin.woff" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />

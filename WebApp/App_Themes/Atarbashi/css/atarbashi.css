@@ -1,0 +1,88 @@
+﻿@import url(/App_Themes/Atarbashi/css/font-Nazanin.css);
+
+body, a {
+    font-family: 'B-Nazanin';
+}
+
+.button-header {
+    padding: 10px 45px;
+    background: transparent;
+    color: #222;
+    border-color: #EEEEEE;
+    font-family: 'B-Nazanin';
+    font-weight: bold;
+    position:relative;
+    top:20px;
+}
+.nav-shop li button {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    position: relative;
+    top: 20px;
+}
+
+.navbar-nav {
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    direction: rtl;
+}
+
+.header_area .navbar {
+    background: transparent;
+    padding: 0px;
+    border: 0px;
+    border-radius: 0px;
+    direction: rtl;
+}
+
+ul.dropdown-menu {
+    right: 0;
+    text-align: right;
+}
+
+
+.header_area .navbar .nav .nav-item .nav-link {
+    font-weight: bold;
+    text-align: right;
+}
+
+.header_area .navbar .nav .nav-item:last-child {
+    margin-right: 45px;
+}
+
+
+ul.dropdown-menu > li > a {
+    text-align: right;
+    font-weight: bold;
+}
+
+.header_area .navbar .nav-shop {
+    padding-bottom: 40px;
+    margin-top: 10px;
+    direction: rtl;
+}
+
+@media (max-width: 991px) {
+    .nav-shop li {
+        display: inline-block !important;
+        margin-left: 20% !important;
+        margin-right: 0;
+    }
+}
+
+    @media (max-width: 991px) {
+        .header_area .navbar .nav .nav-item:last-child {
+            margin-right: 0px;
+        }
+    }
+
+    @media (max-width: 991px) {
+        .header_area .navbar .nav .nav-item {
+            margin-right: 0px;
+        }
+    }

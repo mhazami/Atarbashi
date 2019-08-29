@@ -4,9 +4,11 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
+    <script src="~/App_Themes/Atarbashi/vendors/jquery/jquery-3.2.1.min.js"></script>
     @Styles.Render("~/bootstrap/css")
 
     @RenderSection("Head", true)
+    <link href="~/App_Themes/Atarbashi/css/atarbashi.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -27,42 +29,37 @@
                     </button>
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav ml-auto mr-auto">
-                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="index.html">صفحه اصلی</a></li>
                             <li class="nav-item submenu dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                                   aria-expanded="false">Shop</a>
+                                   aria-expanded="false">مقالات</a>
                                 <ul class="dropdown-menu">
-                                    <li class="nav-item"><a class="nav-link" href="category.html">Shop Category</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="single-product.html">Product Details</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="checkout.html">Product Checkout</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="confirmation.html">Confirmation</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="cart.html">Shopping Cart</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="category.html">پوست و مو</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="single-product.html">گیاهان دارویی</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="checkout.html">زیبایی</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="confirmation.html">آرایشی بهداشتی</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="cart.html">تناسب اندام</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item submenu dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                                   aria-expanded="false">Blog</a>
+                                   aria-expanded="false">محصولات</a>
                                 <ul class="dropdown-menu">
-                                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="blog.html">پوست</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="single-blog.html">مو</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="single-blog.html">چاقی ولاغری</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="single-blog.html">زیبایی</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="single-blog.html">آرایشی بهداشتی</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item submenu dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                                   aria-expanded="false">Pages</a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="tracking-order.html">Tracking</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                           
+                            <li class="nav-item"><a class="nav-link" href="contact.html">تماس با ما</a></li>
                         </ul>
 
                         <ul class="nav-shop">
                             <li class="nav-item"><button><i class="ti-search"></i></button></li>
                             <li class="nav-item"><button><i class="ti-shopping-cart"></i><span class="nav-shop__circle">3</span></button> </li>
-                            <li class="nav-item"><a class="button button-header" href="#">Buy Now</a></li>
+                            <li class="nav-item"><a class="button button-header" href="#">فروشگاه</a></li>
                         </ul>
                     </div>
                 </div>
@@ -611,7 +608,7 @@
 
 
 
-    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/js")
 
     @RenderSection("Script", true)
 

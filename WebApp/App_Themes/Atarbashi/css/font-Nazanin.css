@@ -1,0 +1,8 @@
+﻿
+@font-face {
+    font-family: 'B-Nazanin';
+    src: url('/App_Themes/Atarbashi/fonts/BNazanin.eot') format('embedded-opentype');
+    src: url('/App_Themes/Atarbashi/fonts/BNazanin.eot?#iefix') format('embedded-opentype'), url('/App_Themes/Atarbashi/fonts/BNazanin.ttf') format('truetype'), url('/App_Themes/Atarbashi/fonts/BNazanin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

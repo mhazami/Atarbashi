@@ -7,17 +7,17 @@ namespace Atarbashi.WebApp.App_Start
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                       "~/App_Themes/Atarbashi/vendors/jquery/jquery-{version}.min.js",
-                       "~/App_Themes/Atarbashi/vendors/bootstrap/bootstrap.bundle.min.js",
-                       "~/App_Themes/Atarbashi/vendors/skrollr.min.js",
-                       "~/App_Themes/Atarbashi/vendors/owl-carousel/owl.carousel.min.js",
-                       "~/App_Themes/Atarbashi/vendors/nice-select/jquery.nice-select.min.js",
-                       "~/App_Themes/Atarbashi/vendors/jquery.ajaxchimp.min.js",
-                       "~/App_Themes/Atarbashi/vendors/mail-script.js",
-                       "~/App_Themes/Atarbashi/js/main.js",
-                       "~/App_Themes/Atarbashi/js/atarbashi.js"));
+                       "~/App_Themes/Atarbashi/vendors/jquery/jquery-{version}.min.js"));
 
-          
+            bundles.Add(new ScriptBundle("~/bundles/js").Include(
+                         "~/App_Themes/Atarbashi/vendors/bootstrap/bootstrap.bundle.min.js",
+                         "~/App_Themes/Atarbashi/vendors/skrollr.min.js",
+                         "~/App_Themes/Atarbashi/vendors/owl-carousel/owl.carousel.min.js",
+                         "~/App_Themes/Atarbashi/vendors/nice-select/jquery.nice-select.min.js",
+                         "~/App_Themes/Atarbashi/vendors/jquery.ajaxchimp.min.js",
+                         "~/App_Themes/Atarbashi/vendors/mail-script.js",
+                         "~/App_Themes/Atarbashi/js/main.js",
+                         "~/App_Themes/Atarbashi/js/atarbashi.js"));
 
             bundles.Add(new StyleBundle("~/bootstrap/css").Include(
                      "~/App_Themes/Atarbashi/vendors/bootstrap/bootstrap.min.css",
