@@ -11,9 +11,10 @@ body, a {
     border-color: #EEEEEE;
     font-family: 'B-Nazanin';
     font-weight: bold;
-    position:relative;
-    top:20px;
+    position: relative;
+    top: 20px;
 }
+
 .nav-shop li button {
     padding: 0;
     border: 0;
@@ -75,14 +76,26 @@ ul.dropdown-menu > li > a {
     }
 }
 
-    @media (max-width: 991px) {
-        .header_area .navbar .nav .nav-item:last-child {
-            margin-right: 0px;
-        }
+@media (max-width: 991px) {
+    .header_area .navbar .nav .nav-item:last-child {
+        margin-right: 0px;
     }
+}
 
-    @media (max-width: 991px) {
-        .header_area .navbar .nav .nav-item {
-            margin-right: 0px;
-        }
+@media (max-width: 991px) {
+    .header_area .navbar .nav .nav-item {
+        margin-right: 0px;
     }
+}
+
+@media (max-width: 575px) {
+    .hero-banner__content {
+        padding-bottom: 50px;
+        text-align: right;
+    }
+}
+
+.hero-banner__content {
+    text-align: right;
+    font-family: 'B-Nazanin';
+}
