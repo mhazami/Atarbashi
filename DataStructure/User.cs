@@ -13,7 +13,7 @@ namespace Atarbashi.DataStructure
         [Required]
         public Guid EnterPriseNodeId { get; set; }
 
-        public virtual EnterPriseNode EnterPriseNode { get; set; }
+        public EnterPriseNode EnterPriseNode { get; set; }
 
         [Required, MaxLength(250)]
         public string Username { get; set; }

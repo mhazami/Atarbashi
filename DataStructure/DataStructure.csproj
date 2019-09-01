@@ -42,8 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Article.cs" />
+    <Compile Include="ArticleCategory.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="EnterPriseNode.cs" />
+    <Compile Include="File.cs" />
     <Compile Include="ItemCategory.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Newsletter.cs" />
@@ -51,6 +54,7 @@
     <Compile Include="Role.cs" />
     <Compile Include="RoleMenu.cs" />
     <Compile Include="User.cs" />
+    <Compile Include="UserComments.cs" />
     <Compile Include="UserRole.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
