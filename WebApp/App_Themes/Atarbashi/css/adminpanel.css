@@ -1,0 +1,295 @@
+﻿@import url('font-Nazanin.css');
+@import url('font-awesome.min.css');
+@import url('main.css');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+header > .row, main > .row {
+    display: flex;
+}
+
+    header > .row > .col-1, main > .row > .col-1 {
+        flex: 1;
+    }
+
+    header > .row > .col-2, main > .row > .col-2 {
+        flex: 2;
+    }
+
+    header > .row > .col-3, main > .row > .col-3 {
+        flex: 3;
+    }
+
+    header > .row > .col-4, main > .row > .col-4 {
+        flex: 4;
+    }
+
+    header > .row > .col-5, main > .row > .col-5 {
+        flex: 5;
+    }
+
+    header > .row > .col-6, main > .row > .col-6 {
+        flex: 6;
+    }
+
+    header > .row > .col-7, main > .row > .col-7 {
+        flex: 7;
+    }
+
+    header > .row > .col-8, main > .row > .col-8 {
+        flex: 8;
+    }
+
+    header > .row > .col-9, main > .row > .col-9 {
+        flex: 9;
+    }
+
+    header > .row > .col-10, main > .row > .col-10 {
+        flex: 10;
+    }
+
+    header > .row > .col-11, main > .row > .col-11 {
+        flex: 11;
+    }
+
+    header > .row > .col-12, main > .row > .col-12 {
+        flex: 12;
+    }
+
+header {
+    height: 50px;
+    width: 100%;
+    direction: rtl;
+    border-bottom: 1px solid #c6e6d4;
+}
+
+.logo {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+    .logo > img {
+        height: 50px;
+    }
+
+header .row .iran {
+    /*background-image: linear-gradient(#2cb522,white, #ff0000);*/
+}
+
+header .row .user-info {
+}
+
+    header .row .user-info ul {
+        list-style: none;
+    }
+
+        header .row .user-info ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+            header .row .user-info ul li a {
+                line-height: 50px;
+                text-decoration: none;
+                padding: 0 10px;
+            }
+
+.fa-user-circle, .fa-power-off, .fa-money {
+    font-size: 1.2em;
+}
+
+main > .row {
+    margin-top: 20px;
+    direction: rtl;
+}
+
+    main > .row > .col-3 {
+        height: 120px;
+        margin: 0 15px;
+    }
+
+        main > .row > .col-3 > a {
+            display: flex;
+            background-color: #05a064;
+            border-radius: 5px;
+        }
+
+            main > .row > .col-3 > a > .box-icon {
+                width: 50%;
+                line-height: 120px;
+                text-align: center;
+            }
+
+                main > .row > .col-3 > a > .box-icon > .fa {
+                    font-size: 2em;
+                    color: white;
+                }
+
+            main > .row > .col-3 > a > .box-text {
+                line-height: 120px;
+                color: white;
+                font-weight: bold;
+                width: 50%;
+            }
+
+
+
+.container {
+    margin-top: 20px;
+    direction: rtl;
+}
+
+.box-input {
+}
+
+
+@media screen and (max-width:1224px) {
+    header .row .user-info ul li {
+        display: inline-block;
+        margin: 0;
+    }
+
+        header .row .user-info ul li a {
+            line-height: 50px;
+            text-decoration: none;
+        }
+}
+
+
+@media screen and (max-width:1024px) {
+    header .row .user-info ul li {
+        display: inline-block;
+        margin: 0;
+    }
+
+        header .row .user-info ul li a {
+            line-height: 50px;
+            text-decoration: none;
+        }
+
+    main .row {
+        width: 100%;
+        display: block;
+    }
+
+    main {
+        margin: 10px 10px 0;
+    }
+
+        main > .row > .col-3 {
+            margin: 20px 0 0 0;
+            width: 100%;
+        }
+
+            main > .row > .col-3 > a {
+                display: flex;
+            }
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .row {
+        width: 100%;
+        display: block;
+    }
+
+    main {
+        margin: 100px 10px 0;
+    }
+
+        main > .row > .col-3 {
+            margin: 20px 0 0 0;
+            width: 100%;
+        }
+
+            main > .row > .col-3 > a {
+                display: flex;
+            }
+
+    header .row .logo {
+        width: 100%;
+        border-bottom: 1px solid #c6e6d4;
+    }
+
+    header .row .user-info {
+        text-align: center;
+        width: 100%;
+        border-bottom: 1px solid #c6e6d4;
+    }
+
+        header .row .user-info ul {
+            list-style: none;
+        }
+
+            header .row .user-info ul li {
+                display: inline-block;
+                margin: 0;
+            }
+
+                header .row .user-info ul li a {
+                    line-height: 50px;
+                    text-decoration: none;
+                }
+}
+
+@media screen and (max-width:480px) {
+    header .row {
+        width: 100%;
+        display: block;
+    }
+
+        header .row .logo {
+            width: 100%;
+            border-bottom: 1px solid #c6e6d4;
+        }
+}

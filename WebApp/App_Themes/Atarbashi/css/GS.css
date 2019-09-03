@@ -1,0 +1,132 @@
+﻿.container {
+    width: 100%;
+}
+
+    .container .row {
+        width: 960px;
+        margin: 0 auto;
+        height: 100px;
+        background-color: gainsboro;
+    }
+
+    .container > .row::after {
+        content: '';
+        width: 0;
+        height: 0;
+        display: block;
+        clear: both;
+    }
+
+    .container > .row > .col-1,
+    .container > .row > .col-2,
+    .container > .row > .col-3,
+    .container > .row > .col-4,
+    .container > .row > .col-5,
+    .container > .row > .col-6,
+    .container > .row > .col-7,
+    .container > .row > .col-8,
+    .container > .row > .col-9,
+    .container > .row > .col-10,
+    .container > .row > .col-11,
+    .container > .row > .col-12 {
+        margin: 0 1.041666666666667%;
+        float: left;
+        height: 100Px;
+    }
+
+    .container > .row > .col-1 {
+        width: 6.25%;
+    }
+
+    .container > .row > .col-2 {
+        width: 14.58333333333333%;
+    }
+
+    .container > .row > .col-3 {
+        width: 22.91666666666667%;
+    }
+
+    .container > .row > .col-4 {
+        width: 31.25%;
+    }
+
+    .container > .row > .col-5 {
+        width: 39.58333333333333%;
+    }
+
+    .container > .row > .col-6 {
+        width: 47.91666666666667%;
+    }
+
+    .container > .row > .col-7 {
+        width: 56.25%;
+    }
+
+    .container > .row > .col-8 {
+        width: 64.58333333333333%;
+    }
+
+    .container > .row > .col-9 {
+        width: 72.91666666666667%;
+    }
+
+    .container > .row > .col-10 {
+        width: 81.25%;
+    }
+
+    .container > .row > .col-11 {
+        width: 89.58333333333333%;
+    }
+
+    .container > .row > .col-12 {
+        width: 97.91666666666667%;
+    }
+
+    .container > .row > .offset-1 {
+        margin-left: 8.333333333333334%;
+    }
+
+    .container > .row > .offset-2 {
+        margin-left: 16.66666666666666%;
+    }
+
+    .container > .row > .offset-3 {
+        margin-left: 25%;
+    }
+
+    .container > .row > .offset-4 {
+        margin-left: 33.33333333333333%;
+    }
+
+    .container > .row > .offset-5 {
+        margin-left: 41.66666666666666%;
+    }
+
+    .container > .row > .offset-6 {
+        margin-left: 47.91666666666667%;
+    }
+
+    .container > .row > .offset-7 {
+        margin-left: 58.33333333333333%;
+    }
+
+    .container > .row > .offset-8 {
+        margin-left: 66.66666666666666%;
+    }
+
+    .container > .row > .offset-9 {
+        margin-left: 75%;
+    }
+
+    .container > .row > .offset-10 {
+        margin-left: 83.33333333333333%;
+    }
+
+    .container > .row > .offset-11 {
+        margin-left: 91.66666666666666%;
+    }
+
+
+@media screen and (max-width:1024px){
+
+}

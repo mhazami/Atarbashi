@@ -101,10 +101,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\Atarbashi\css\adminpanel.css" />
     <Content Include="App_Themes\Atarbashi\css\atarbashi.css" />
+    <Content Include="App_Themes\Atarbashi\css\font-awesome.css" />
+    <Content Include="App_Themes\Atarbashi\css\font-awesome.min.css" />
     <Content Include="App_Themes\Atarbashi\css\font-Nazanin.css" />
+    <Content Include="App_Themes\Atarbashi\css\GS.css" />
     <Content Include="App_Themes\Atarbashi\css\main.css" />
     <Content Include="App_Themes\Atarbashi\css\style.css" />
+    <Content Include="App_Themes\Atarbashi\fonts\fontawesome\fontawesome-webfont.svg" />
+    <Content Include="App_Themes\Atarbashi\images\atarbashi\logo.jpg" />
+    <Content Include="App_Themes\Atarbashi\images\atarbashi\favicon.jpg" />
     <Content Include="App_Themes\Atarbashi\images\blog\add.jpg" />
     <Content Include="App_Themes\Atarbashi\images\blog\author.png" />
     <Content Include="App_Themes\Atarbashi\images\blog\blog1.png" />
@@ -595,6 +602,7 @@
     <Content Include="App_Themes\Atarbashi\vendors\themify-icons\SVG\zoom-out.svg" />
     <Content Include="App_Themes\Atarbashi\vendors\themify-icons\themify-icons.css" />
     <Content Include="Global.asax" />
+    <Content Include="HTMLFiles\admin.html" />
     <Content Include="HTMLFiles\blog.html" />
     <Content Include="HTMLFiles\cart.html" />
     <Content Include="HTMLFiles\category.html" />
@@ -675,6 +683,11 @@
     <Content Include="App_Themes\Atarbashi\fonts\BNazanin.eot" />
     <Content Include="App_Themes\Atarbashi\fonts\BNazanin.ttf" />
     <Content Include="App_Themes\Atarbashi\fonts\BNazanin.woff" />
+    <Content Include="App_Themes\Atarbashi\fonts\fontawesome\fontawesome-webfont.eot" />
+    <Content Include="App_Themes\Atarbashi\fonts\fontawesome\fontawesome-webfont.ttf" />
+    <Content Include="App_Themes\Atarbashi\fonts\fontawesome\fontawesome-webfont.woff" />
+    <Content Include="App_Themes\Atarbashi\fonts\fontawesome\fontawesome-webfont.woff2" />
+    <Content Include="App_Themes\Atarbashi\fonts\fontawesome\FontAwesome.otf" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />

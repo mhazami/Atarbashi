@@ -26,5 +26,10 @@ namespace Atarbashi.DataStructure
         public bool IsShow { get; set; }
 
         public bool Enable { get; set; }
+
+        [MaxLength(50)]
+        public string Icon { get; set; }
+
+
     }
 }

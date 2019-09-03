@@ -109,3 +109,8 @@ ul.dropdown-menu > li > a {
     text-align: right;
     font-family: 'B-Nazanin';
 }
+.header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
+    color: #05a064;
+}
+
+
