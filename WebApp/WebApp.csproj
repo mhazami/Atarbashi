@@ -47,6 +47,27 @@
     <Reference Include="Antlr3.Runtime, Version=3.4.1.9004, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
       <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Azami">
+      <HintPath>..\TParty\Azami.dll</HintPath>
+    </Reference>
+    <Reference Include="Azami.Framework">
+      <HintPath>..\TParty\Azami.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Azami.Utility">
+      <HintPath>..\TParty\Azami.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="Azami.Web">
+      <HintPath>..\TParty\Azami.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Azami.Web.Mvc.Utility">
+      <HintPath>..\TParty\Azami.Web.Mvc.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\TParty\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\TParty\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.5.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>

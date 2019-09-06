@@ -11,6 +11,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{E20C0F45-85B5-45AD-B2D7-4FD9FB130061}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TParty", "TParty", "{EF6695BE-966D-4870-BB01-F24CD10F8FA5}"
+	ProjectSection(SolutionItems) = preProject
+		TParty\Azami.dll = TParty\Azami.dll
+		TParty\Azami.Framework.dll = TParty\Azami.Framework.dll
+		TParty\Azami.Utility.dll = TParty\Azami.Utility.dll
+		TParty\Azami.Web.dll = TParty\Azami.Web.dll
+		TParty\Azami.Web.Mvc.Utility.dll = TParty\Azami.Web.Mvc.Utility.dll
+		TParty\EntityFramework.dll = TParty\EntityFramework.dll
+		TParty\EntityFramework.SqlServer.dll = TParty\EntityFramework.SqlServer.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
