@@ -9,9 +9,10 @@ namespace Atarbashi.DataStructure
     {
         [Key, Column(Order = 0)]
         public Guid RoleId { get; set; }
+        public Role Role { get; set; }
 
         [Key, Column(Order = 1)]
         public Guid MenuId { get; set; }
-
+        public Menu Menu { get; set; }
     }
 }
