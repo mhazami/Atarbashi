@@ -2,9 +2,6 @@
 using Azami.Framework.BO;
 using System;
 using System.Collections.Generic;
-using System.Data.Entity.Core.Objects;
-using System.Data.Entity.Infrastructure;
-using System.Linq;
 
 namespace Atarbashi.BLL
 {
@@ -13,13 +10,15 @@ namespace Atarbashi.BLL
 
         public List<Menu> GetMenuByUserId(Guid userId)
         {
-            List<Guid> roles = new UserRoleBO().Select(x => x.RoleId, x => x.UserId == userId, true);
+            var menus= new RoleMenuBO().GetMenuByUserId(userId);
+            return menus;
+        }
 
-            var roleList = string.Join(",", roles.Select(i => i.ToString()));
-
-            var query = $"SELECT MenuId From [Security].[RoleMenu] Where RoleId IN ({roleList})";
-            int amount = db.Database.SqlQuery<int>(query).Single(); 
+        public List<Menu> GetMenuByParentId(Guid menuId ,Guid userId)
+        {
+            var menus = new RoleMenuBO().GetMenuByParentId(menuId,userId);
+            return menus;
         }
     }
-    }
+
 }

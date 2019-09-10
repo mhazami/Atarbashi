@@ -62,11 +62,11 @@
     <Reference Include="Azami.Web.Mvc.Utility">
       <HintPath>..\TParty\Azami.Web.Mvc.Utility.dll</HintPath>
     </Reference>
-    <Reference Include="EntityFramework">
-      <HintPath>..\TParty\EntityFramework.dll</HintPath>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
-    <Reference Include="EntityFramework.SqlServer">
-      <HintPath>..\TParty\EntityFramework.SqlServer.dll</HintPath>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -641,8 +641,12 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\SessionParameters.cs" />
     <Compile Include="Areas\ManagementContent\ManagementContentAreaRegistration.cs" />
     <Compile Include="Areas\Product\ProductAreaRegistration.cs" />
+    <Compile Include="Areas\Security\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Security\Controllers\MenuController.cs" />
+    <Compile Include="Areas\Security\Controllers\UserController.cs" />
     <Compile Include="Areas\Security\SecurityAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -709,9 +713,12 @@
     <Content Include="App_Themes\Atarbashi\fonts\fontawesome\fontawesome-webfont.woff" />
     <Content Include="App_Themes\Atarbashi\fonts\fontawesome\fontawesome-webfont.woff2" />
     <Content Include="App_Themes\Atarbashi\fonts\fontawesome\FontAwesome.otf" />
+    <Content Include="Areas\Security\Views\Home\Index.cshtml" />
+    <Content Include="Areas\Security\Views\Menu\Index.cshtml" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_AdminLayout.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -727,9 +734,9 @@
     <Folder Include="Areas\Product\Controllers\" />
     <Folder Include="Areas\Product\Models\" />
     <Folder Include="Areas\Product\Views\Shared\" />
-    <Folder Include="Areas\Security\Controllers\" />
     <Folder Include="Areas\Security\Models\" />
     <Folder Include="Areas\Security\Views\Shared\" />
+    <Folder Include="Areas\Security\Views\User\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
