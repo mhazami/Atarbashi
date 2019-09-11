@@ -1,13 +1,13 @@
 ﻿using Atarbashi.DAL;
+using Atarbashi.DAL.Base;
 using Atarbashi.DataStructure;
-using Azami.Framework.BO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace Atarbashi.BLL
 {
-    public class RoleMenuBO 
+    public class RoleMenuBO :BaseBO<RoleMenu>
     {
         public List<Menu> GetMenuByUserId(Guid userId)
         {

@@ -217,10 +217,57 @@ main > .row {
                     border-width: 0px;
                     border: 1px solid gainsboro;
                     padding: 2px;
-                    outline-color:#c6e6d4;
+                    outline-color: #c6e6d4;
                 }
 
-                  
+
+.main-grid {
+    width: 90%;
+    margin: 50px auto;
+    height: 250px;
+}
+
+    .main-grid > grid {
+        width: 100%;
+        min-height: 100px;
+    }
+
+    .main-grid > .grid > table {
+        padding: 10px;
+        direction: rtl;
+        width: 100%;
+    }
+
+        .main-grid > .grid > table > thead, .main-grid > .grid > table > tbody {
+            padding: 10px;
+        }
+
+            .main-grid > .grid > table > thead > tr, .main-grid > .grid > table > tbody > tr {
+                height: 35px;
+                padding: 10px;
+            }
+
+                .main-grid > .grid > table > thead > tr > th {
+                    padding: 0 10px;
+                    text-align: center;
+                    font-weight: bold;
+                    border: 1px solid black;
+                    line-height: 35px;
+                    background-color: #eee;
+                }
+
+                .main-grid > .grid > table > tbody > tr > td {
+                    padding: 0 10px;
+                    text-align: center;
+                    border: 1px solid black;
+                    line-height: 35px;
+                }
+
+                    .main-grid > .grid > table > tbody > tr:hover {
+                        background-color:#c6e6d4;
+                    }
+
+
 
 
 @media screen and (max-width:1224px) {
@@ -233,6 +280,7 @@ main > .row {
             line-height: 50px;
             text-decoration: none;
         }
+
     .container {
         margin: 50px 15px;
         direction: rtl;

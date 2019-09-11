@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\BaseBO.cs" />
     <Compile Include="Base\DBManager.cs" />
     <Compile Include="Migrations\201909091436344_Create_DB.cs" />
     <Compile Include="Migrations\201909091436344_Create_DB.Designer.cs">

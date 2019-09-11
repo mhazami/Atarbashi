@@ -1,7 +1,5 @@
-﻿using System;
+﻿using Atarbashi.BLL;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace Atarbashi.WebApp.Areas.Security.Controllers
@@ -11,7 +9,8 @@ namespace Atarbashi.WebApp.Areas.Security.Controllers
         // GET: Security/User
         public ActionResult Index()
         {
-            return View();
+            List<DataStructure.User> users = new UserBO().Where(x => x.Username != "host");
+            return View(users);
         }
     }
 }

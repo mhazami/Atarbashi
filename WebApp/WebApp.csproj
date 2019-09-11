@@ -644,8 +644,6 @@
     <Compile Include="App_Start\SessionParameters.cs" />
     <Compile Include="Areas\ManagementContent\ManagementContentAreaRegistration.cs" />
     <Compile Include="Areas\Product\ProductAreaRegistration.cs" />
-    <Compile Include="Areas\Security\Controllers\HomeController.cs" />
-    <Compile Include="Areas\Security\Controllers\MenuController.cs" />
     <Compile Include="Areas\Security\Controllers\UserController.cs" />
     <Compile Include="Areas\Security\SecurityAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -656,7 +654,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
-    <Content Include="Areas\Security\Views\web.config" />
     <Content Include="Areas\ManagementContent\Views\web.config" />
     <Content Include="Areas\Product\Views\web.config" />
     <Content Include="App_Themes\Atarbashi\images\blog\.DS_Store" />
@@ -713,8 +710,9 @@
     <Content Include="App_Themes\Atarbashi\fonts\fontawesome\fontawesome-webfont.woff" />
     <Content Include="App_Themes\Atarbashi\fonts\fontawesome\fontawesome-webfont.woff2" />
     <Content Include="App_Themes\Atarbashi\fonts\fontawesome\FontAwesome.otf" />
-    <Content Include="Areas\Security\Views\Home\Index.cshtml" />
-    <Content Include="Areas\Security\Views\Menu\Index.cshtml" />
+    <Content Include="Areas\Product\Views\Content\Index.cshtml" />
+    <Content Include="Areas\Security\Views\web.config" />
+    <Content Include="Areas\Security\Views\User\Index.cshtml" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
@@ -736,7 +734,6 @@
     <Folder Include="Areas\Product\Views\Shared\" />
     <Folder Include="Areas\Security\Models\" />
     <Folder Include="Areas\Security\Views\Shared\" />
-    <Folder Include="Areas\Security\Views\User\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -746,6 +743,10 @@
     <ProjectReference Include="..\BLL\BLL.csproj">
       <Project>{0a10b64f-8562-4306-90bf-4a06163110a0}</Project>
       <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{666612CB-80A1-4312-B1FF-1E527FA2F091}</Project>
+      <Name>DAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\DataStructure\DataStructure.csproj">
       <Project>{01c187ce-905e-46ee-b5e9-b5f4dbf2935a}</Project>

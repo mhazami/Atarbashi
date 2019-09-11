@@ -1,0 +1,37 @@
+﻿@model IEnumerable<User>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="main-grid">
+    <div class="grid">
+        <table>
+            <thead>
+                <tr>
+                    <th>نام</th>
+                    <th>نام خانوادگی</th>
+                    <th>نام کاربری</th>
+                    <th>نقش</th>
+                </tr>
+            </thead>
+
+            <tbody>
+              @{ 
+                  foreach (var item in Model)
+                  {
+                      <tr>
+                          <td>@item.EnterPriseNode.FirstName</td>
+                          <td>@item.EnterPriseNode.LastName</td>
+                          <td>@item.Username</td>
+                          <td>
+                              <a href="#">نقش</a>
+                          </td>
+                      </tr>
+                  }
+              }
+            </tbody>
+        </table>
+    </div>
+</div>

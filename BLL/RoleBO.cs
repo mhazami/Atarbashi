@@ -1,5 +1,5 @@
-﻿using Atarbashi.DataStructure;
-using Azami.Framework.BO;
+﻿using Atarbashi.DAL.Base;
+using Atarbashi.DataStructure;
 
 namespace Atarbashi.BLL
 {

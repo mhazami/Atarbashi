@@ -4,7 +4,7 @@ using System.Data.Entity;
 
 namespace Atarbashi.DAL.Base
 {
-    public class DBManager : DbContextManager
+    public class DBManager : DbContext
     {
         public DBManager() : base("name=ConnectionString") { }
 

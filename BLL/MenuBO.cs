@@ -1,5 +1,5 @@
-﻿using Atarbashi.DataStructure;
-using Azami.Framework.BO;
+﻿using Atarbashi.DAL.Base;
+using Atarbashi.DataStructure;
 using System;
 using System.Collections.Generic;
 
@@ -19,6 +19,8 @@ namespace Atarbashi.BLL
             var menus = new RoleMenuBO().GetMenuByParentId(menuId,userId);
             return menus;
         }
+
+        
     }
 
 }
