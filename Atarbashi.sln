@@ -22,6 +22,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TParty", "TParty", "{EF6695
 		TParty\EntityFramework.SqlServer.dll = TParty\EntityFramework.SqlServer.dll
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Message", "Message\Message.csproj", "{B757DB17-0DB3-4F0B-83CA-46808A6F2237}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 		{E20C0F45-85B5-45AD-B2D7-4FD9FB130061}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E20C0F45-85B5-45AD-B2D7-4FD9FB130061}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E20C0F45-85B5-45AD-B2D7-4FD9FB130061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B757DB17-0DB3-4F0B-83CA-46808A6F2237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B757DB17-0DB3-4F0B-83CA-46808A6F2237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B757DB17-0DB3-4F0B-83CA-46808A6F2237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B757DB17-0DB3-4F0B-83CA-46808A6F2237}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

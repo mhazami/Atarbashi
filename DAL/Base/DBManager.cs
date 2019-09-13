@@ -1,5 +1,4 @@
 ﻿using Atarbashi.DataStructure;
-using Azami.Framework.DAL;
 using System.Data.Entity;
 
 namespace Atarbashi.DAL.Base
@@ -34,6 +33,12 @@ namespace Atarbashi.DAL.Base
 
         public virtual DbSet<UserComments> UserComments { get; set; }
 
+        public virtual DbSet<Message> Message { get; set; }
 
+        public virtual DbSet<GalleryItem> GalleryItem { get; set; }
+
+        public virtual DbSet<Slider> Slider { get; set; }
+
+        public virtual DbSet<Gallery> Gallery { get; set; }
     }
 }
